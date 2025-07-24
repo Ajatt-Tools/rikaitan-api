@@ -58,7 +58,7 @@ If you are a Firefox user and/or have built Rikaitan from source, you need to ob
 
 ## API Paths
 
-By default, the api is hosted on `http://127.0.0.1:8766`. To change this, edit `ADDR` and `PORT` in `rikaitan_api.py`.
+By default, the api is hosted on `http://127.0.0.1:19633`. To change this, edit `ADDR` and `PORT` in `rikaitan_api.py`.
 
 - [/serverVersion](./docs/api_paths/serverVersion.md)
 
