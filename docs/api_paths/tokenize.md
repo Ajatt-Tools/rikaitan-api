@@ -16,7 +16,7 @@ Returns tokenized text segments for input text, including readings.
 
 ```json
 {
-    "text": "自民党の総裁選挙",
+    "text": "ヨナグニサンはすごく大きいとかわいい、ガの触角最高",
     "scanLength": 10
 }
 ```
@@ -34,8 +34,60 @@ The response contains an array with parsing results from Rikaitan's internal `pa
         "content": [
             [
                 {
-                    "text": "自民党",
-                    "reading": "じみんとう"
+                    "text": "ヨナグニサン",
+                    "reading": ""
+                }
+            ],
+            [
+                {
+                    "text": "はす",
+                    "reading": ""
+                }
+            ],
+            [
+                {
+                    "text": "ごく",
+                    "reading": ""
+                }
+            ],
+            [
+                {
+                    "text": "大",
+                    "reading": "おお"
+                },
+                {
+                    "text": "きい",
+                    "reading": ""
+                }
+            ],
+            [
+                {
+                    "text": "とか",
+                    "reading": ""
+                }
+            ],
+            [
+                {
+                    "text": "わい",
+                    "reading": ""
+                }
+            ],
+            [
+                {
+                    "text": "い",
+                    "reading": ""
+                }
+            ],
+            [
+                {
+                    "text": "、",
+                    "reading": ""
+                }
+            ],
+            [
+                {
+                    "text": "ガ",
+                    "reading": ""
                 }
             ],
             [
@@ -46,14 +98,14 @@ The response contains an array with parsing results from Rikaitan's internal `pa
             ],
             [
                 {
-                    "text": "総裁選",
-                    "reading": "そうさいせん"
+                    "text": "触角",
+                    "reading": "しょっかく"
                 }
             ],
             [
                 {
-                    "text": "挙",
-                    "reading": "きょ"
+                    "text": "最高",
+                    "reading": "さいこう"
                 }
             ]
         ]
