@@ -19,8 +19,7 @@ MANIFEST_TEMPLATE = {
 BROWSER_DATA = {
     "firefox": {
         "extension_id_key": "allowed_extensions",
-        # See README.md, important
-        "extension_ids": ["{a25fed0c-47c9-477d-8f48-e4b4ee67cdaf}"],
+        "extension_ids": ["tatsu@autistici.org"],
     },
     "chrome": {
         "extension_id_key": "allowed_origins",
