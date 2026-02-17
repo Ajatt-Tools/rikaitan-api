@@ -16,6 +16,8 @@
 
 3. Run `python install_rikaitan_api.py` and follow the prompts. If you do not see any errors, it has successfully installed.
 
+    **On forks of browsers such as Brave, you may need to install the API onto Chrome as well.**
+
     **If you have built Rikaitan from source, please refer to the [How to find your extension ID](#how-to-find-your-extension-id) section below.**
 
 4. Go to the Rikaitan settings page on your browser.
